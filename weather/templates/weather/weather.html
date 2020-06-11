@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebApp 1.0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+</head>
+
+<body>
+    <section class="hero is-dark is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    What's the weather like?
+                </h1>
+                <h2 class="subtitle">
+                    Weather Web App 1.0
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-offset-4 is-4">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <div class="field has-addons">
+                            <div class="control is-expanded">
+                                {{ form.name }}
+                            </div>
+                            <div class="control">
+                                <button type="submit" class="button is-success is-outlined is-rounded">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-check"></i>
+                                      </span>
+                                      <span>Add City</span>
+                                </button>
+                                <br>
+                                
+                            </div>
+                        </div>
+                        {% if message %}
+                            <div class="notification {{ message_class }}">{{ message }}</div>
+                        {% endif %}
+                        <a class="button is-danger is-outlined is-rounded"  href="{% url 'delete_everything' %}" role="button">
+                        <span>Delete all Cities</span>
+                        <span class="icon is-small">
+                          <i class="fas fa-times"></i>
+                        </span>
+                    </a>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="tile">
+                <div class="tile is-parent">
+                <div class="column is-offset-4 is-4">
+                    {% for city_weather in weather_data %}
+                    <div class="box">
+                        <div class="tile is-child">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-50x50">
+                                    <img src="http://openweathermap.org/img/w/{{ city_weather.icon }}.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="tile">
+                                    <p>
+                                        <span class="title">{{ city_weather.city }}</span>
+                                        <br>
+                                        <span class="country">Country : {{ city_weather.country }}</span>
+                                        <br>
+                                        <span class="subtitle">Current Temperature : {{ city_weather.temperature }}° F</span>
+                                        <br>Description : {{ city_weather.description }}
+                                        <br>
+                                        <span class="coordinates">Geo Coordinates : [{{ city_weather.coordinates_lat }}, {{ city_weather.coordinates_lon }}]</span>
+                                        <br>
+                                        <span class="pressure">Pressure : {{ city_weather.pressure }} hpa</span>
+                                        <br>
+                                        <span class="humidity">Humidity : {{ city_weather.humidity }}</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="media-right">
+                                <a href="{% url 'delete_city' city_weather.city %}">
+                                    <button class="delete"></button>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+   <!-- <footer class="footer is-small" padding = "2rem 1rem 4rem">
+    </footer>-->
+    <section class="hero is-link is-light is-small">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Made by Sagar Hedaoo
+                </h1>
+                <h2 class="subtitle">
+                    For Any Issues or Upgrades contact : <br>
+                    sagarhedaoo@gmail.com
+                </h2>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
