@@ -6,7 +6,7 @@ This is my First Web App i created in Summer 💻
 This WebApp shows the weather of the city/cities you want.
 
 ## Used Technologies
-- [Bulma](https://bulma.io/)
+- [Bulma CSS](https://bulma.io/)
 - [Python3](www.python.org)
 - [Django](https://www.djangoproject.com/)
 - [Visual Studio Code](https://visualstudio.microsoft.com/)
