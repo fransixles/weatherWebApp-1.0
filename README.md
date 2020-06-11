@@ -10,7 +10,6 @@ Use the Add City Box to add cities to the Database
 ## How to use
 Sign up for [OpenWeatherMap](https://openweathermap.org/api/) to get your API Key and enter in **url = ' '** in Views.py
 
-
 Setup Python and Django in your Editor.
 
 
