@@ -4,10 +4,19 @@
 This is my First Web App i created in Summer 💻
 This WebApp shows the weather of the city/cities you want.
 
+## Used Technologies
+- [Bulma](https://bulma.io/)
+- [Python3](www.python.org)
+- [Django](https://www.djangoproject.com/)
+- [Visual Studio Code](https://visualstudio.microsoft.com/)
+
 ## Adding Cities
 Use the Add City Box to add cities to the Database
 
-## How to use
+## Launch Instructions
+Clone the Project using the following command: 
+> git clone https://github.com/sagarhedaoo/weatherWebApp-1.0.git
+
 Sign up for [OpenWeatherMap](https://openweathermap.org/api/) to get your API Key and enter in **url = ' '** in Views.py
 
 Setup Python and Django in your Editor.
