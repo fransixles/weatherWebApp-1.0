@@ -8,4 +8,4 @@ This WebApp shows the weather of the city/cities you want.
 Use the Add City Box to add cities to the Database
 
 ## How to use
-Sign up for [OpenWeatherMap](https://openweathermap.org/api/) to get your API Key and enter in Views.py
+Sign up for [OpenWeatherMap](https://openweathermap.org/api/) to get your API Key and enter in **url = ' '** in Views.py
