@@ -1,5 +1,5 @@
 # weatherWebApp-1.0
-
+![Django CI](https://github.com/sagarhedaoo/weatherWebApp-1.0/workflows/Django%20CI/badge.svg)
 
 This is my First Web App i created in Summer 💻
 
