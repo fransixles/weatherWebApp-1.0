@@ -1,6 +1,7 @@
 # weatherWebApp-1.0
 ![Django CI](https://github.com/sagarhedaoo/weatherWebApp-1.0/workflows/Django%20CI/badge.svg)
 ![Python application](https://github.com/sagarhedaoo/weatherWebApp-1.0/workflows/Python%20application/badge.svg)
+[![Inline docs](http://inch-ci.org/github/sagarhedaoo/weatherWebApp-1.0.svg?branch=master)](http://inch-ci.org/github/sagarhedaoo/weatherWebApp-1.0)
 
 
 This is my First Web App i created in Summer 💻
