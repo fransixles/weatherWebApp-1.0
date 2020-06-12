@@ -20,6 +20,8 @@ This WebApp shows the weather of the city/cities you want.
 Use the **Add City Box** to add cities to the Database
 
 ## Launch Instructions
+Directly go to this [Link](http://sagarhedaoo.pythonanywhere.com/)
+
 Clone the Project using the following command: 
 > **git clone https://github.com/sagarhedaoo/weatherWebApp-1.0.git**
 
