@@ -3,6 +3,8 @@
 ![Python application](https://github.com/sagarhedaoo/weatherWebApp-1.0/workflows/Python%20application/badge.svg)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 [![HitCount](http://hits.dwyl.com/sagarhedaoo/weatherWebApp-10.svg)](http://hits.dwyl.com/sagarhedaoo/weatherWebApp-10)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 
 
 This is my First Web App i created in Summer 💻
