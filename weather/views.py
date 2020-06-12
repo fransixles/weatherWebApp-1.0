@@ -4,7 +4,7 @@ from .models import City
 from .forms import CityForm
 
 def index(request):
-    url = 'Enter Your API Key here with the url'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=2a4f1312b33bf9dbab34d2e58c46a439'
     err_msg = ''
     message = ''
     message_class = ''
