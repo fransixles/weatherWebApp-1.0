@@ -21,6 +21,9 @@ This WebApp shows the weather of the city/cities you want.
 ## Adding Cities
 Use the **Add City Box** to add cities to the Database
 
+## Contributing
+Open for suggestions and requests. Please request through [issue](https://github.com/sagarhedaoo/weatherWebApp-1.0/issues) or [pull requests](https://github.com/sagarhedaoo/weatherWebApp-1.0/pulls).
+
 ## Launch Instructions
 Directly go to this [Link](http://sagarhedaoo.pythonanywhere.com/)
 
