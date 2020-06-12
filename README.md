@@ -11,6 +11,7 @@ This WebApp shows the weather of the city/cities you want.
 
 ## Used Technologies
 - [Bulma CSS](https://bulma.io/)
+- [API](https://openweathermap.org/api)
 - [Python3](www.python.org)
 - [Django](https://www.djangoproject.com/)
 - [Visual Studio Code](https://visualstudio.microsoft.com/)
