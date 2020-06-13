@@ -44,7 +44,7 @@ Make Migrations in the Python File.
 
 Finally, runserver on the command line and use the WebApp.
 
-## **Screenshot of the Project : **  
+## **Screenshot of the Project :**  
 ![Git Screenshot](https://github.com/sagarhedaoo/weatherWebApp-1.0/blob/master/Capture.PNG)
 
 
