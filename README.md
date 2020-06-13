@@ -27,6 +27,8 @@ Open for suggestions and requests. Please request through [issue](https://github
 ## Launch Instructions
 Directly go to this [Link](http://sagarhedaoo.pythonanywhere.com/)
 
+### **OR**
+
 Clone the Project using the following command: 
 > **git clone https://github.com/sagarhedaoo/weatherWebApp-1.0.git**
 
